@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.0.10/css/all.css');
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  font-family: 'Ranchers', cursive;
+  color: #3e506b;
+  background-color: rgb(200, 200, 200);
+}
+
+h1, h2 {
+  font-family: 'Ranchers', cursive;
+  color: #6091d6;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+div {
+  background-color: white;
+  width: 480px;
+  margin: 24px auto;
+  padding: 24px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+ul > li > a {
+  font-size: 48px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+ul > li > a:hover {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+ul > li {
+  display: inline;
+  margin: 0 8px;
+}
+
+ul {
+  padding: 0;
+}
+
+.btn-blue {
+  background-color: rgba(99, 109, 225, 1.00);
+  padding: 12px 24px;
+  border-radius: 8px;
+  color: white;
+}
+
+.btn-blue:hover {
+  background-color: black;
+}
+
+.avatar-round {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
