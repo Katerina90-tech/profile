@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kufam&display=swap');
 @import url('https://use.fontawesome.com/releases/v5.0.10/css/all.css');
 
 @media (max-width: 960px) {
@@ -18,14 +18,9 @@
 }
 
 body {
-  font-family: 'Ranchers', cursive;
+  font-family: 'Kufam', cursive;;
   color: #3e506b;
-  background-color: rgb(200, 200, 200);
-}
-
-h1, h2 {
-  font-family: 'Ranchers', cursive;
-  color: #6091d6;
+  background-color: rgb(230, 230, 230);
 }
 
 a {
@@ -41,7 +36,8 @@ ul {
 }
 
 div {
-  background-color: white;
+  background: rgb(191,190,208);
+  background: linear-gradient(90deg, rgba(191,190,208,1) 0%, rgba(158,158,189,1) 2%, rgba(207,227,231,1) 100%);
   width: 480px;
   margin: 24px auto;
   padding: 24px;
@@ -66,16 +62,20 @@ ul > li {
 ul {
   padding: 0;
 }
+.fb,
+.inst {
+  color: #22223b;
+}
 
 .btn-blue {
-  background-color: rgba(99, 109, 225, 1.00);
+  background-color: #4a4e69;
   padding: 12px 24px;
   border-radius: 8px;
   color: white;
 }
 
 .btn-blue:hover {
-  background-color: black;
+  background-color: #22223b;
 }
 
 .avatar-round {
